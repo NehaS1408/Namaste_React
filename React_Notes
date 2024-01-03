@@ -1,2 +1,49 @@
 what is react
 what is crossorigin used in importing the files.
+
+NPM:- is standard repository for all the packages, it's bigest package manager.
+any package we need in our project we can use it.
+
+Package.JSON:- it's configuration for npm, it's keep tracking of the version of all the packages installed in our application
+
+package-lock.JSON:- it locks the vesrion ans keeps the record of the every/exact version of package/dependency
+
+what is bundler:-
+it's bundle your app, packages your app so that it can be shipped to the production
+
+there are types of dependency we can install
+1) Dev dependency :- it required at the development phase
+2)Normal dependency :- used in production also
+
+what is caret and tilde in package.JOSN
+caret:- it will update automatically the minor version of the packages.
+tilde:- it will update the major version automatically
+to add exact version just remove the sign before the version
+
+
+what is node modules:-
+it contains the actuall data/code of the dependency of the packages which we installed 
+
+npm :- to install the package.
+
+npx:-
+executing the package
+
+we can bring react to our project via two ways:-
+CDN Links:- 
+1) not preferred way to bring react in our project. 
+2) by this we are calling another network call to bring react in our project.
+3) if any new version came ,  so every time we need to change the URL to change the version.
+
+Via NPM packages:-
+
+Parcel:-
+1) created the dev build
+2) created the local server
+3) doing HMR:- Hot Module Replacement
+4) parcel uses the file watching algorithm(which is written in C++)
+5) caching :- faster build
+6) it will do image optimization
+7) minification the file also(bundling)
+8) compress the files
+

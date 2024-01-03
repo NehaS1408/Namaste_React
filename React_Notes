@@ -37,13 +37,26 @@ CDN Links:-
 
 Via NPM packages:-
 
-Parcel:-
-1) created the dev build
-2) created the local server
-3) doing HMR:- Hot Module Replacement
-4) parcel uses the file watching algorithm(which is written in C++)
-5) caching :- faster build
-6) it will do image optimization
-7) minification the file also(bundling)
-8) compress the files
+Parcel:- https://parceljs.org/docs/
+- created the dev build
+- created the local server
+- doing HMR:- Hot Module Replacement
+- parcel uses the file watching algorithm(which is written in C++)
+- caching :- faster build
+- it will do image optimization
+- minification the file also(bundling)
+- compress the files
+- consistent hashing
+- code splitting
+- differential bundling:- to support in older browser as well
+- Diagnostic
+- Error Handling
+- Tree Shaking - will remove unsuded code 
+- different dev and Prod bundles
+
+command for production build
+npx parcel build index.html
+
+command for Dev build
+npx parcel index.html
 
